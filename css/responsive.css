@@ -1,0 +1,96 @@
+@media(max-width:991px)
+{
+    header .address
+    {
+        text-align: center;
+    }
+    header .welcome
+    {
+        clip-path:none;
+    }
+    header .container
+    {
+        max-width: 100%;
+    }
+}
+@media(min-width:992px)
+{
+    nav.navbar{
+        min-height: 100px;
+    }
+    nav.navbar .container{
+        position:relative;
+    }
+    nav.navbar .navbar-brand{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform:translate(-50%,-50%);
+        transition: 500ms;
+    }
+    #my-custom-nav ul {
+        opacity: 0 !important;
+        visibility: hidden !important;
+        transition: 500ms !important;
+    }
+    .align-icon
+    {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .activeLogo
+    {
+        left: 0 !important;
+        top: 50% !important;
+        transform: translate(0,-50%) !important;
+        transition: 500ms !important;
+    }
+    #my-custom-nav .activeMenu
+    {
+        opacity: 1 !important;
+        visibility: visible !important;
+        transition: 500ms;
+    }
+}
+@media (min-width:992px) and (max-width:1100px)
+{
+    #about .abouttext 
+{
+    
+    padding-right: 12px;
+}
+}
+@media (min-width:768px) and (max-width:991px)
+{
+    #about .image img
+    {
+        position: absolute;
+        right: auto;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #about .abouttext .heading
+    {
+        margin-top: 30px;
+    }
+    #about .abouttext {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+}
+@media (max-width:767px)
+{
+    #about .image img{
+        padding-left: 10px;
+        padding-right: 10px;   
+    }
+    #about  #aboutTab button{
+        padding: 0 8px;
+        font-size: 8px;
+    }
+}
